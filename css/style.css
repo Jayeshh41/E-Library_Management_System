@@ -1,0 +1,239 @@
+/* fonts */
+@font-face {
+    font-family: "Raleway-regular";
+    src: url(../fonts/Raleway-Regular.ttf)
+}
+
+@font-face {
+    font-family: "Raleway-medium";
+    src: url(../fonts/Raleway-Medium.ttf)
+}
+
+@font-face {
+    font-family: "Raleway-Bold";
+    src: url(../fonts/Raleway-Bold.ttf)
+}
+
+@font-face {
+    font-family: "Raleway-Semibold";
+    src: url(../fonts/Raleway-SemiBold.ttf)
+}
+
+@font-face {
+    font-family: "Raleway-Black";
+    src: url(../fonts/Raleway-Black.ttf)
+}
+
+@font-face {
+    font-family: "ROG";
+    src: url(/fonts/batmfa__.ttf)
+}
+
+@font-face {
+    font-family: "ROG!";
+    src: url(/fonts/batmfo__.ttf)
+}
+
+@font-face {
+    font-family: "home";
+    src: url(/fonts/Smoothy.ttf)
+}
+
+/* color */
+:root{
+      --primary:#EEBF00;
+      --secondary:#232B38;
+      --ternary:#6C6C6C;
+      --danger:#FE4545;
+      --pure:#FEFEFE;
+      -light:#F0F0F0;
+      -heaven:#FFFFFF;
+      -footer:#2D333F;
+}
+
+/* Reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    -webkit-font-smoothing:antialiased;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(/images/work2.jpg);
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+
+}
+
+.contain
+{
+    width:100%;
+    padding: 15px;
+    margin:0 auto;
+}
+
+@media (min-width:576px)
+{
+    .contain{
+        max-width: 540px;
+    }
+}
+
+@media (min-width:768px)
+{
+    .contain{
+        max-width: 720px;
+    }
+}
+
+@media (min-width:922px)
+{
+    .contain{
+        max-width: 960px;
+    }
+}
+
+@media (min-width:1200px)
+{
+    .contain{
+        max-width: 1152px;
+    }
+}
+
+header.top{
+    background: rgb(20, 19, 19);
+    color:var(--pure);
+    font-family: "Raleway-semibold";
+    padding: 0.75rem 0;
+    
+}
+
+header.top .auth > div a{
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+    font-family: "Raleway-Bold";
+}
+
+header.top .icons a{
+    margin-right: 0.6rem;
+    
+}
+
+header.top .auth .divider{
+    padding: 0 1rem;
+}
+
+header.top .auth > div img{
+    margin-right: 0.35 rem;
+}
+
+header.top .contain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header.top .contain .auth{
+    display: flex;
+}
+
+/* flex */
+
+.flex{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.nav{
+    text-align: center;
+    
+}
+
+.nav ul{
+    display: inline-flex;
+    list-style: none;
+    background-color: none;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+
+.nav ul a{
+    text-decoration: none;
+    color: #f8f7f7;
+    font-family: "Raleway-Bold";
+    font-size: 1 rem;
+    padding: 1rem 1.5rem ;
+    transition: all .3s ease;
+    border-radius: 20px;
+}
+
+.nav ul a.active{
+    background: rgb(216, 173, 54);
+   color: rgb(0, 0, 0);
+   border-radius: 20px;
+   
+}
+
+.nav ul a:hover{
+    background: rgb(216, 173, 54);
+    color: rgb(17, 14, 14);
+    border-radius: 20px;
+    margin: 2px;
+}
+
+
+.join a{
+    position: relative;
+    display: inline-block;
+    padding: 12px 36px;
+    margin: 80px 113px;
+    top: -170px;
+    color: orange;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, rgb(180, 163, 125), rgb(170, 118, 22));
+    color: rgb(255, 255, 255);
+    font-family: "Raleway-Bold";
+}
+
+.join a:hover{
+    transform: scale(1.1);
+    z-index: 2;
+    color: rgb(0, 0, 0);
+}
+
+.logo img{
+    margin: 40px 50px;
+    border-radius: 200px;
+    width: 300px;
+    border: 2px solid orange;
+}
+
+.home{
+    color: rgb(151, 127, 46);
+    font-family: "home";
+    font-size: 50px;
+    margin: -600px 300px;
+    padding: 260px;
+}
+
+.home h1{
+    white-space: nowrap;
+}
+

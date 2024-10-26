@@ -1,0 +1,69 @@
+/* fonts */
+@font-face {
+    font-family: "Raleway-regular";
+    src: url(../fonts/Raleway-Regular.ttf)
+}
+
+@font-face {
+    font-family: "Raleway-medium";
+    src: url(../fonts/Raleway-Medium.ttf)
+}
+
+@font-face {
+    font-family: "Raleway-Bold";
+    src: url(../fonts/Raleway-Bold.ttf)
+}
+
+@font-face {
+    font-family: "Raleway-Semibold";
+    src: url(../fonts/Raleway-SemiBold.ttf)
+}
+
+@font-face {
+    font-family: "Raleway-Black";
+    src: url(../fonts/Raleway-Black.ttf)
+    
+}
+
+@font-face {
+    font-family: "ROG";
+    src: url(/fonts/batmfa__.ttf)
+}
+
+@font-face {
+    font-family: "ROG!";
+    src: url(/fonts/batmfo__.ttf)
+}
+
+@font-face {
+    font-family: "cant";
+    src: url(/fonts/Dephion-Slanted-Light.otf)
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.us{
+    color: rgb(211, 165, 38);
+    font-family: "Raleway-Bold";
+    font-size: 45px;
+    margin: -9% 75px;
+}
+
+.madeby{
+    color: white;
+    font-family: "Raleway-medium";
+    font-size: 30px;
+    margin: -20px 75px;
+    position: absolute;
+    top: 350px;
+
+}
+
+.madeby a{
+    color: gold;
+    font-family:"cant";
+}

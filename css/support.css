@@ -1,0 +1,93 @@
+/* fonts */
+@font-face {
+    font-family: "Raleway-regular";
+    src: url(../fonts/Raleway-Regular.ttf)
+}
+
+@font-face {
+    font-family: "Raleway-medium";
+    src: url(../fonts/Raleway-Medium.ttf)
+}
+
+@font-face {
+    font-family: "Raleway-Bold";
+    src: url(../fonts/Raleway-Bold.ttf)
+}
+
+@font-face {
+    font-family: "Raleway-Semibold";
+    src: url(../fonts/Raleway-SemiBold.ttf)
+}
+
+@font-face {
+    font-family: "Raleway-Black";
+    src: url(../fonts/Raleway-Black.ttf)
+    
+}
+
+@font-face {
+    font-family: "ROG";
+    src: url(/fonts/batmfa__.ttf)
+}
+
+@font-face {
+    font-family: "ROG!";
+    src: url(/fonts/batmfo__.ttf)
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    -webkit-font-smoothing:antialiased;
+}
+
+.sup{
+    font-family: "ROG";
+    width: 450px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: rgb(221, 148, 37);
+    margin: 20px;
+}
+
+.sup h1{
+    font-size: 40px;
+    text-align: center;
+    margin: 40px 0;
+    text-transform: uppercase;
+    
+}
+
+.sup p{
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.sup input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    
+}
+
+
+#submit{
+    font-family: ROG;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+    font-family: "ROG"
+}
